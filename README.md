@@ -1,5 +1,7 @@
 # GitHub Copilot UBB 移行 課金アセスメントガイド (日本語版)
 
+🌐 **公開サイト**: <https://chibayuki347.github.io/ubb-billing-guide/>
+
 GitHub Copilot は **Usage-Based Billing (UBB: 使用量ベース課金)** へ移行します。本リポジトリは、その移行に向けて Enterprise / Organization 管理者が事前に試算を行うための実践ガイドの **日本語版** です。
 
 原文 (英語) は [wolai に公開された "Billing Assessment Guide for the GitHub Copilot UBB Transition"](https://www.wolai.com/uPNu2N2KQCmL5NDambrABR) です。
