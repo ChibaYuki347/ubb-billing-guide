@@ -19,6 +19,7 @@ GitHub Copilot は **Usage-Based Billing (UBB: 使用量ベース課金)** へ�
 | 4 | [Online Assessment](docs/ja/04-online-assessment.md) | Web アプリでのオンライン分析 |
 | 5 | [Features of the Copilot Billing Preview app](docs/ja/05-features.md) | アプリの機能と分析例 |
 | 6 | [Disclaimers](docs/ja/06-disclaimers.md) | 注意事項 |
+| 7 | [Appendix: CSV フォーマット詳解と AIC 計算](docs/ja/07-billing-report-format.md) | 補足: 列定義・計算式・例 |
 
 ## 🔗 主要なリンク
 

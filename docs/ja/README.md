@@ -27,6 +27,8 @@ GitHub Copilot UBB (Usage-Based Billing: 使用量ベース課金) への移行�
    - Overview (概要)
    - Assessment Example (分析例)
 6. [Disclaimers (免責事項)](06-disclaimers.md)
+7. [Appendix: Copilot Usage Billing CSV フォーマット詳解と AIC コスト計算](07-billing-report-format.md)
+   - 元: [jacwu/ghfaq · `docs/billing-report-format.md`](https://github.com/jacwu/ghfaq/blob/main/docs/billing-report-format.md)
 
 ---
 

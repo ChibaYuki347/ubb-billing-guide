@@ -11,4 +11,5 @@
 | ナビゲーション | |
 | --- | --- |
 | ← 前へ | [5. Features of the Copilot Billing Preview app](05-features.md) |
+| → 次へ | [7. Appendix: CSV フォーマット詳解と AIC 計算](07-billing-report-format.md) |
 | 🏠 トップ | [README](README.md) |
