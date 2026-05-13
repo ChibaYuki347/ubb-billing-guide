@@ -8,7 +8,6 @@ theme: jekyll-theme-cayman
 plugins:
   - jekyll-relative-links        # .md リンクを .html に自動変換
   - jekyll-optional-front-matter # front matter のない .md も処理対象に
-  - jekyll-readme-index          # サブディレクトリの README.md を index として配信
   - jekyll-titles-from-headings  # ページタイトルを H1 から自動生成
   - jekyll-seo-tag               # SEO メタタグの自動付与
   - jekyll-sitemap               # sitemap.xml を生成
@@ -19,11 +18,6 @@ relative_links:
 
 optional_front_matter:
   remove_originals: true
-
-readme_index:
-  enabled: true
-  remove_originals: false
-  with_frontmatter: true
 
 titles_from_headings:
   enabled: true
@@ -36,6 +30,11 @@ defaults:
       path: ""
     values:
       layout: default
+  # サブディレクトリの README.md を /<dir>/ で配信するための明示パーマリンク
+  - scope:
+      path: docs/ja/README.md
+    values:
+      permalink: /docs/ja/
 
 # GitHub UI 用のリポジトリ情報
 repository: ChibaYuki347/ubb-billing-guide
