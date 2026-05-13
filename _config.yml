@@ -1,0 +1,51 @@
+title: "Billing Assessment Guide for the GitHub Copilot UBB Transition"
+description: "GitHub Copilot UBB (Usage-Based Billing) 移行のための課金アセスメントガイド · 日本語版"
+lang: ja
+theme: jekyll-theme-cayman
+
+# GitHub Pages がサポートする公式プラグイン
+# https://pages.github.com/versions/
+plugins:
+  - jekyll-relative-links        # .md リンクを .html に自動変換
+  - jekyll-optional-front-matter # front matter のない .md も処理対象に
+  - jekyll-readme-index          # サブディレクトリの README.md を index として配信
+  - jekyll-titles-from-headings  # ページタイトルを H1 から自動生成
+  - jekyll-seo-tag               # SEO メタタグの自動付与
+  - jekyll-sitemap               # sitemap.xml を生成
+
+relative_links:
+  enabled: true
+  collections: true
+
+optional_front_matter:
+  remove_originals: true
+
+readme_index:
+  enabled: true
+  remove_originals: false
+  with_frontmatter: true
+
+titles_from_headings:
+  enabled: true
+  strip_title: true   # H1 はバナーに表示されるため本文からは除去
+  collections: true
+
+# Cayman テーマは default レイアウトのみを持つため全 .md に default を適用
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default
+
+# GitHub UI 用のリポジトリ情報
+repository: ChibaYuki347/ubb-billing-guide
+show_downloads: false
+
+# Jekyll が処理しないもの
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - vendor/
+  - .gitignore
+  - LICENSE
+  - node_modules/
